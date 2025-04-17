@@ -4,6 +4,8 @@
   "outputDirectory": ".next",
   "buildCommand": "npm run build",
   "installCommand": "npm install",
+  "devCommand": "npm run dev",
+  "regions": ["icn1"],
   "rewrites": [
     { "source": "/(.*)", "destination": "/$1" }
   ]

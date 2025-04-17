@@ -2,6 +2,7 @@
   "name": "workvision",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +10,7 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": ">=18.17.0"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
